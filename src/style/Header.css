@@ -1,0 +1,31 @@
+.header {
+    background-color: rgb(67, 112, 97);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .logo img {
+    height: 160px;
+  }
+  
+  .icon-left {
+    position: relative;
+  }
+  
+  .icon-left img {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .icon-right {
+    position: relative;
+  }
+  
+  .icon-right img {
+    width: 30px;
+    cursor: pointer;
+  }
+  

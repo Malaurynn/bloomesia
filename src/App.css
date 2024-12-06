@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Biryani:wght@300&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a, span, div, input, button, label, select, option, textarea{
+    font-family: 'Biryani', sans-serif;
+}   
+
+p{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1rem;
+}

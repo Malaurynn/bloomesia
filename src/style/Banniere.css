@@ -1,0 +1,37 @@
+.banniere {
+    position: relative; /* Permet de positionner le bouton par rapport au conteneur */
+    width: 100%; /* S'assure que l'image prend toute la largeur du conteneur */
+    height: auto;
+    margin: 0% ;
+    overflow: hidden; /* Évite tout débordement */
+    background-color: #a6aea8;
+}
+
+.imagebouquet {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+/* Bouton sur l'image */
+.banniere-button {
+    position: absolute;
+    top: 50%; /* Positionné au centre verticalement */
+    left: 50%; /* Positionné au centre horizontalement */
+    transform: translate(-50%, -50%); /* Centre réellement le bouton */
+    padding: 10px 20px;
+    background-color: rgb(33, 49, 39);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Effets au survol */
+.banniere-button:hover {
+    background-color: rgba(93, 111, 90, 0.9);
+}
